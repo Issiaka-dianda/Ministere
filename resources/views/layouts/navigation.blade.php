@@ -24,32 +24,32 @@
                         <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full {{ $currentRoute === 'home' ? 'w-full' : '' }}"></span>
                     </a>
 
-                    <a href="/a-propos" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'a-propos' ? 'text-red-600' : '' }}">
+                    <a href="{{route('a-propos')}}" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'a-propos' ? 'text-red-600' : '' }}">
                         À propos
                         <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full {{ $currentRoute === 'a-propos' ? 'w-full' : '' }}"></span>
                     </a>
 
-                    <a href="/etablissement" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'etablissement' ? 'text-red-600' : '' }}">
+                    <a href="{{route('etablissement')}}" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'etablissement' ? 'text-red-600' : '' }}">
                         Établissements
                         <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full {{ $currentRoute === 'etablissement' ? 'w-full' : '' }}"></span>
                     </a>
 
-                    <a href="/reformes" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'reformes' ? 'text-red-600' : '' }}">
+                    <a href="{{route('reformes')}}" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'reformes' ? 'text-red-600' : '' }}">
                         Textes et réformes
                         <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full {{ $currentRoute === 'reformes' ? 'w-full' : '' }}"></span>
                     </a>
 
-                    <a href="/faq" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'faq' ? 'text-red-600' : '' }}">
+                    <a href="{{route('faq')}}" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'faq' ? 'text-red-600' : '' }}">
                         FAQ
                         <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full {{ $currentRoute === 'faq' ? 'w-full' : '' }}"></span>
                     </a>
 
-                    <a href="/actualite" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'actualite' ? 'text-red-600' : '' }}">
+                    <a href="{{route('actualite')}}" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'actualite' ? 'text-red-600' : '' }}">
                         Actualités
                         <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full {{ $currentRoute === 'actualite' ? 'w-full' : '' }}"></span>
                     </a>
 
-                    <a href="/contacte" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'contacte' ? 'text-red-600' : '' }}">
+                    <a href="{{route('contacte')}}" class="relative group px-2 py-1 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'contacte' ? 'text-red-600' : '' }}">
                         Contact
                         <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full {{ $currentRoute === 'contacte' ? 'w-full' : '' }}"></span>
                     </a>
@@ -86,7 +86,7 @@
                         </span>
                     </a>
 
-                    <a href="/a-propos"
+                    <a href="{{route('a-propos')}}"
                         class="block px-3 py-2 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'a-propos' ? 'text-red-600' : '' }}">
                         <span class="relative">
                             À propos
@@ -95,7 +95,7 @@
                         </span>
                     </a>
 
-                    <a href="/etablissement"
+                    <a href="{{route('etablissement')}}"
                         class="block px-3 py-2 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'etablissement' ? 'text-red-600' : '' }}">
                         <span class="relative">
                             Établissements
@@ -104,7 +104,7 @@
                         </span>
                     </a>
 
-                    <a href="/reformes"
+                    <a href="{{route('reformes')}}"
                         class="block px-3 py-2 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'reformes' ? 'text-red-600' : '' }}">
                         <span class="relative">
                             Textes et réformes
@@ -113,7 +113,7 @@
                         </span>
                     </a>
 
-                    <a href="/faq"
+                    <a href="{{route('faq')}}"
                         class="block px-3 py-2 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'faq' ? 'text-red-600' : '' }}">
                         <span class="relative">
                             FAQ
@@ -122,7 +122,7 @@
                         </span>
                     </a>
 
-                    <a href="/actualite"
+                    <a href="{{route('actualite')}}"
                         class="block px-3 py-2 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'actualite' ? 'text-red-600' : '' }}">
                         <span class="relative">
                             Actualités
@@ -131,7 +131,7 @@
                         </span>
                     </a>
 
-                    <a href="/contacte"
+                    <a href="{{route('contacte')}}"
                         class="block px-3 py-2 text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 {{ $currentRoute === 'contacte' ? 'text-red-600' : '' }}">
                         <span class="relative">
                             Contact
